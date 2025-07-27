@@ -1,0 +1,43 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+.venv/
+venv/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Jupyter notebooks
+*.ipynb
+
+# Package files
+*.tar
+*.tar.gz
+*.zip
+
+# System/OS-specific
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Output and generated files
+output/
+*.log
+*.json
+*.pdf
+
+# Docker and Git metadata
+.dockerignore
+Dockerfile
+.git/
+.gitignore
+
+# Environment variables
+.env
+*.env

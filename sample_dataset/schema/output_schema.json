@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "PDF Heading Extraction Output Schema",
+  "description": "Schema to validate JSON outputs from PDF heading extraction process",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Extracted title of the PDF document"
+    },
+    "outline": {
+      "type": "array",
+      "description": "List of extracted heading blocks with levels and page numbers",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "string",
+            "description": "Heading level such as H1, H2, H3, etc."
+          },
+          "text": {
+            "type": "string",
+            "description": "The actual text content of the heading"
+          },
+          "page": {
+            "type": "integer",
+            "description": "Page number where this heading appears (1-indexed)",
+            "minimum": 1
+          }
+        },
+        "required": ["level", "text", "page"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["title", "outline"],
+  "additionalProperties": false
+}
