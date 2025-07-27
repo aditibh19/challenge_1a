@@ -23,7 +23,7 @@ To determine whether a merged line is a heading, we apply several filters:
 * **Regex filters** (especially for English):
 
   * Rejects years (e.g., "2022"), dates (e.g., "12 January"), single lowercase words, and common footer patterns.
-  * Filters out strings like URLs, "RFP:", and text resembling form fields.
+  * Filters out strings like URLs.
 
 ## Title Detection
 
