@@ -119,6 +119,6 @@ This command:
 
 ## Credits
 
-**Team:** CodeHers  
+**Team:** C0d3Hers
 **Developed by:** Aditi Bhalla and Kashvi Rathore  
 **GitHub:** https://github.com/aditibh19/challenge_1a
