@@ -1,3 +1,6 @@
+# Adobe India Hackathon - Round 1 Solution
+**"Connecting the Dots" Challenge - Complete Round 1 Solution**
+
 ## PDF Heading Extractor — Challenge-1A
 
 This repository provides a lightweight, layout-aware utility to extract **titles and section headings from PDFs** using only visual cues like font size, weight, and positioning — optimized for local, CPU-only environments.
@@ -65,7 +68,7 @@ The tool is built to support **offline, dockerized batch processing of PDFs**, a
 
 ```bash
 docker build -t adobe1a .
-```
+````
 
 ### Step 2: Run on All PDFs
 
@@ -75,15 +78,15 @@ docker run --rm -v "$PWD/sample_dataset:/app/sample_dataset" adobe1a 2>$null
 
 This command:
 
-- Reads all `*.pdf` files in `input/`
-- Produces a corresponding `*.json` file in `output/`
+* Reads all `*.pdf` files in `input/`
+* Produces a corresponding `*.json` file in `output/`
 
 ---
 
 ## Project Structure
 
 ```
-📦 pdf_outline_extractor/
+ pdf_outline_extractor/
 ├── input/
 ├── output/
 ├── main.py              # Main heading extractor
@@ -121,6 +124,8 @@ This command:
 
 **Team:** C0d3Hers
 
-**Developed by:** Aditi Bhalla and Kashvi Rathore  
+**Developed by:** Aditi Bhalla and Kashvi Rathore
 
-**GitHub:** https://github.com/aditibh19/challenge_1a
+**GitHub:** [https://github.com/aditibh19/challenge\_1a](https://github.com/aditibh19/challenge_1a)
+
+```
