@@ -128,4 +128,3 @@ This command:
 
 **GitHub:** [https://github.com/aditibh19/challenge\_1a](https://github.com/aditibh19/challenge_1a)
 
-```
