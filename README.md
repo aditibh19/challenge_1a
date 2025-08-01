@@ -1,5 +1,5 @@
 # Adobe India Hackathon - Round 1 Solution
-**"Connecting the Dots" Challenge - Complete Round 1 Solution**
+**"Connecting the Dots" Challenge **
 
 ## PDF Heading Extractor — Challenge-1A
 
